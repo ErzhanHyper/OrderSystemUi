@@ -1,0 +1,63 @@
+.close{
+    cursor: pointer;
+}
+
+.close:hover i{
+    color: red;
+}
+
+.v-main__wrap{
+    background-color: rgba(203, 203, 210, 0.15);
+}
+
+
+
+button.reset.reset_text--text{
+    border-color: #303030!important;
+}
+
+
+.lang_select{
+  max-width: 140px;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+
+.webphone-btn, .chat-btn{
+  background: #934aff;
+  width: 26px;
+  height:26px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+  i{
+      margin:0!important;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.v-text-field--outlined fieldset{
+  border-color: #dcdcdc;
+}
+
+
+.v-alert{
+  padding: 5px;
+  font-size: 14px;
+}
+
+
+.fs-18{
+  font-size: 18px;
+}
+
+tbody.active{
+  filter: blur(8px);
+}
